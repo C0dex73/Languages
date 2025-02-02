@@ -1,11 +1,11 @@
-[
+[ //TODO : enquire about the random \r and \n
   {
     "Identifier": "Button_Roger",
     "Text": "ROGER"
   },
   {
     "Identifier": "Button_Deny",
-    "Text": "DENY"
+    "Text": "NÉGATIF"
   },
   {
     "Identifier": "Button_OK",
@@ -17,7 +17,7 @@
   },
   {
     "Identifier": "Loading_PrepareCockpitState",
-    "Text": "[ PRERATION DE LA CONFIGURATION DU COCKPIT ]"
+    "Text": "[ PRÉPARATION DE LA CONFIGURATION DU COCKPIT ]"
   },
   {
     "Identifier": "ViewSelector_Title",
@@ -53,7 +53,7 @@
   },
   {
     "Identifier": "InGameMenu_InputControls",
-    "Text": "INPUT CONTROLS"
+    "Text": "CONTRÔLES"
   },
   {
     "Identifier": "InGameMenu_SaveState",
@@ -77,7 +77,7 @@
   },
   {
     "Identifier": "InGameMenu_Graphics",
-    "Text": "GRAPHIQUE"
+    "Text": "OPTIONS GRAPHIQUES"
   },
   {
     "Identifier": "InGameMenu_CreateChecklist",
@@ -89,7 +89,7 @@
   },
   {
     "Identifier": "CommTools_RequestRadioCheck",
-    "Text": "VERIFICATION RADIO"
+    "Text": "VÉRIFICATION RADIO"
   },
   {
     "Identifier": "MissionPad_Mission",
@@ -153,7 +153,7 @@
   },
   {
     "Identifier": "SaveState_Body",
-    "Text": "J'ai commencé à implémenter récemment le système de sauvegarde de l'état d'une mission. Il est encore assez basique et sauvegardera les vecteurs de l'appareil (vitesse, accélération) et ces objets physique ainsi que la configuration du cockpit.\n\nJ'essaierai de garder les fichiers de sauvegarde compatible avec les anciennes versions, mais gardez à l'esprit que des changements rendant ces fichiers inopérant peuvent arriver due à l'état encore peu développé dans lequel se trouve le système de sauvegarde"
+    "Text": "J'ai commencé à implémenter récemment le système de sauvegarde de l'état d'une mission. Il est encore assez basique et sauvegardera les vecteurs de l'appareil (vitesse, accélération), les objets physiques ainsi que la configuration du cockpit.\n\nJ'essaierai de garder les fichiers de sauvegarde compatible avec les anciennes versions, mais gardez à l'esprit que des changements rendant ces fichiers inopérant peuvent arriver dû à l'état encore peu développé dans lequel se trouve le système de sauvegarde"
   },
   {
     "Identifier": "SaveState_Error",
@@ -161,23 +161,23 @@
   },
   {
     "Identifier": "SaveState_ButtonSave",
-    "Text": "SAVE"
+    "Text": "SAUVEGARDER"
   },
   {
     "Identifier": "Button_Close",
-    "Text": "CLOSE"
+    "Text": "FERMER"
   },
   {
     "Identifier": "SaveState_SaveStateName",
-    "Text": "Save State Name:"
+    "Text": "Nom de la sauvegarde :"
   },
   {
     "Identifier": "SaveState_SaveStateWarning",
-    "Text": "Overwrite?"
+    "Text": "Une sauvegarde porte le même nom, la remplacer ?"
   },
   {
     "Identifier": "Button_ClearAll",
-    "Text": "CLEAR ALL"
+    "Text": "CLEAR ALL" //BOTH THIS AND THE ONE BELOW, TODO : CHECK IN-GAME MEANING
   },
   {
     "Identifier": "Button_Clear",
